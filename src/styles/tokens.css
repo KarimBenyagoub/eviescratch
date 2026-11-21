@@ -1,0 +1,44 @@
+/* Canonical shared semantic tokens. Visual mode is independent of future dark mode. */
+:root,
+:root[data-theme="normal"] {
+  color-scheme: light;
+  --canvas: #FCF8F0;
+  --surface: #FFFDFA;
+  --text: #282222;
+  --muted: #6A5B52;
+  --accent: #246C67;
+  --on-accent: #FFFFFF;
+  --ginger: #A84C29;
+  --control-border: #8B7867;
+  --focus: #713C92;
+  --decorative-border: #DCD1C2;
+  --selected: #E7EEE8;
+  --hover: #F1EDE5;
+  --error: #9B3027;
+  --error-surface: #FFF0EC;
+  --radius: 16px;
+  --panel-shadow: 0 5px 20px rgb(40 34 34 / 4%);
+  --font-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: var(--font-body);
+}
+
+:root[data-theme="pixel"] {
+  color-scheme: light;
+  --canvas: #FFF2D5;
+  --surface: #FFF9EB;
+  --text: #2F241E;
+  --muted: #695847;
+  --accent: #21665D;
+  --on-accent: #FFFFFF;
+  --ginger: #A34726;
+  --control-border: #826A52;
+  --focus: #6B348B;
+  --decorative-border: #BA9C76;
+  --selected: #E1E8D0;
+  --hover: #F3E5C7;
+  --error: #923025;
+  --error-surface: #FFEADD;
+  --radius: 2px;
+  --panel-shadow: 5px 5px 0 rgb(47 36 30 / 14%);
+  --font-display: ui-monospace, "Cascadia Code", Consolas, monospace;
+}

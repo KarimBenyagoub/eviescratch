@@ -1,0 +1,413 @@
+{
+  "frames": {
+    "idle-open": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 313
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 313
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "idle-half-blink": {
+      "frame": {
+        "x": 313,
+        "y": 0,
+        "w": 314,
+        "h": 313
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 313
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "idle-blink": {
+      "frame": {
+        "x": 627,
+        "y": 0,
+        "w": 313,
+        "h": 313
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 313
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "idle-ear-twitch": {
+      "frame": {
+        "x": 940,
+        "y": 0,
+        "w": 314,
+        "h": 313
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 313
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "wave-rest": {
+      "frame": {
+        "x": 0,
+        "y": 313,
+        "w": 313,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "wave-lift": {
+      "frame": {
+        "x": 313,
+        "y": 313,
+        "w": 314,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "wave-raised": {
+      "frame": {
+        "x": 627,
+        "y": 313,
+        "w": 313,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "wave-lower": {
+      "frame": {
+        "x": 940,
+        "y": 313,
+        "w": 314,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "walk-right-contact": {
+      "frame": {
+        "x": 0,
+        "y": 627,
+        "w": 313,
+        "h": 313
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 313
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "walk-right-down": {
+      "frame": {
+        "x": 313,
+        "y": 627,
+        "w": 314,
+        "h": 313
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 313
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "walk-right-passing": {
+      "frame": {
+        "x": 627,
+        "y": 627,
+        "w": 313,
+        "h": 313
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 313
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "walk-right-up": {
+      "frame": {
+        "x": 940,
+        "y": 627,
+        "w": 314,
+        "h": 313
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 313
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "sleep-rest": {
+      "frame": {
+        "x": 0,
+        "y": 940,
+        "w": 313,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "sleep-inhale": {
+      "frame": {
+        "x": 313,
+        "y": 940,
+        "w": 314,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "sleep-exhale": {
+      "frame": {
+        "x": 627,
+        "y": 940,
+        "w": 313,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 313,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    },
+    "sleep-ear-twitch": {
+      "frame": {
+        "x": 940,
+        "y": 940,
+        "w": 314,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 314,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 314,
+        "h": 314
+      }
+    }
+  },
+  "meta": {
+    "app": "EvieScratch",
+    "character": "Evie",
+    "image": "evie-spritesheet.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1254,
+      "h": 1254
+    },
+    "scale": "1",
+    "layout": "4 columns × 4 rows; use individual frame rectangles, not a fixed tile width",
+    "generated": true,
+    "animationStatus": "Static frames supplied; recommended sequences below are untested starting points",
+    "identityConstraint": "Single female calico; do not mirror to synthesize opposite-facing poses"
+  },
+  "animations": {
+    "idle": {
+      "frames": [
+        "idle-open",
+        "idle-half-blink",
+        "idle-blink",
+        "idle-ear-twitch"
+      ],
+      "suggestedDurationsMs": [
+        2400,
+        120,
+        120,
+        250
+      ],
+      "loop": true
+    },
+    "wave": {
+      "frames": [
+        "wave-rest",
+        "wave-lift",
+        "wave-raised",
+        "wave-lower",
+        "wave-rest"
+      ],
+      "suggestedDurationsMs": [
+        120,
+        120,
+        300,
+        120,
+        120
+      ],
+      "loop": false
+    },
+    "walkRight": {
+      "frames": [
+        "walk-right-contact",
+        "walk-right-down",
+        "walk-right-passing",
+        "walk-right-up"
+      ],
+      "suggestedDurationsMs": [
+        160,
+        160,
+        160,
+        160
+      ],
+      "loop": true
+    },
+    "sleep": {
+      "frames": [
+        "sleep-rest",
+        "sleep-inhale",
+        "sleep-exhale",
+        "sleep-ear-twitch"
+      ],
+      "suggestedDurationsMs": [
+        1000,
+        800,
+        1000,
+        500
+      ],
+      "loop": true
+    }
+  },
+  "integration": {
+    "defaultFrame": "idle-open",
+    "reducedMotionFrame": "idle-open",
+    "uniformVirtualFrameSize": {
+      "w": 314,
+      "h": 314
+    },
+    "rendering": "Draw source rect at 0,0 on a 314x314 virtual canvas without stretching 313px cells to 314px. Scale that virtual canvas uniformly for display. Pause when hidden; keep default static.",
+    "warning": "Generated art includes partially transparent edges. Do not claim native 48px/128px assets or pixel-perfect registered animation; review loops before shipping."
+  }
+}
