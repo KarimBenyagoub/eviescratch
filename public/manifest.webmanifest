@@ -1,0 +1,29 @@
+{
+  "name": "EvieScratch · Pixel Cat Notes",
+  "short_name": "EvieScratch",
+  "description": "A calmer place for your thoughts with an adorable ginger cat companion.",
+  "start_url": "/demo",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFF2D5",
+  "theme_color": "#21665D",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/pwa-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/pwa-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
