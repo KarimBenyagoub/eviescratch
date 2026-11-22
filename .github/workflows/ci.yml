@@ -1,7 +1,9 @@
 name: Local notes checks
 on:
-  push:
-  pull_request:
+  # Deactivated for now per request
+  # push:
+  # pull_request:
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
