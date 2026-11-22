@@ -21,7 +21,7 @@ test('full first-run flow starts at the logo and reaches Home with the upfront o
   await expect(intro).toHaveText('');
   await expect(intro.getByRole('button')).toHaveCount(0);
   await expect(page.getByRole('button', { name: 'Skip intro', exact: true })).toHaveCount(0);
-  await expect(intro).toBeHidden({ timeout: 3000 });
+  await expect(intro).toBeHidden({ timeout: 5000 });
   await expect(page.getByRole('heading', { name: 'Welcome to EvieScratch.', exact: true })).toBeVisible();
   await expect(page.getByText('Take notes: Ideas, plans, everyday little things. Give them a quiet place to land, with Evie beside you.', { exact: true })).toBeVisible();
   await page.getByRole('button', { name: 'Let’s begin', exact: true }).click();

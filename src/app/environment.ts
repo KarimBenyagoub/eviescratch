@@ -5,7 +5,7 @@ export function readAppMode(): AppMode {
     const stored = localStorage.getItem(modeKey);
     if (stored === 'normal' || stored === 'test') return stored;
   } catch { /* A blocked preference must not prevent startup. */ }
-  return import.meta.env.PROD ? 'normal' : 'test';
+  return 'test';
 }
 export function storeAppMode(mode: AppMode) {
   localStorage.setItem(modeKey, mode);

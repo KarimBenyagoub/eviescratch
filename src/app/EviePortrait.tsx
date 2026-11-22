@@ -30,7 +30,7 @@ export function EviePortrait({ awake = false, className = '' }: { awake?: boolea
         }
         width="216"
         height="216"
-        alt={awake ? 'Evie awake beside your note' : 'Evie sleeping peacefully'}
+        alt=""
         draggable="false"
       />
     </span>
